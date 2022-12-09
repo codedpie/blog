@@ -1,0 +1,13 @@
+---
+label: test3-post
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: list
+  name: categories
+  label: categories

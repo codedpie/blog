@@ -13,4 +13,4 @@ fields:
   name: categories
   label: categories
 pages:
-- _posts/hello.md
+- _posts/2022-12-09-hello.md

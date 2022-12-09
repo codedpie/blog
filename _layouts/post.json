@@ -1,0 +1,10 @@
+---
+layout: null
+---
+{
+  "title"    : {{ page.title | jsonify }},
+  "slug"     : {{ page.title | slugify | jsonify }},
+  "date"     : {{ page.date | jsonify }},
+  "category" : [{% for cat in page.categories %}{{ cat | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}],
+  "content"  : {{ page.content | markdownify | jsonify }}
+}
